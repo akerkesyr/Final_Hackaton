@@ -1,0 +1,8 @@
+#active_social:hover{
+    border-radius: 10%;
+    color: rgb(16, 16, 16);
+}
+.footer__box{
+  margin-top: 30px;
+  border-radius: 10%;
+}

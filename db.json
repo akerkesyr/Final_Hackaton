@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "category": "femail",
+      "title": "Dress",
+      "model": "METALLIC STRAPPY MAXI DRESS",
+      "description": "Max out your looks this season with this statement maxi dress. With a flattering longline silhouette that skims your body and accentuates your curves, a floor length dress is comfortable, versatile, and a go-to choice for the summer. Opt for a long sleeve maxi dress for formal occasions, whilst a strapless maxi is perfect for casual days. Available in a range of prints, pastels and shapes, this long dress is a key piece in your wardrobe for seasonal dressing.  95% Polyester 5% Elastane. Model wears UK size 10.",
+      "price": 20,
+      "img1": "https://media.boohoo.com/i/boohoo/gzz36087_silver_xl/womens-silver-metallic-strappy-maxi-dress?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "img2": "https://media.boohoo.com/i/boohoo/gzz36087_silver_xl_1/female-silver-metallic-strappy-maxi-dress?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "img3": "https://media.boohoo.com/i/boohoo/gzz36087_silver_xl_2/female-silver-metallic-strappy-maxi-dress?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "id": 1
+    },
+    {
+      "category": "male",
+      "title": "Hoodie",
+      "model": "OVERSIZED BOXY MOON GRAPHIC HOODIE",
+      "description": "Wanna keep things comfy? Jump on the oversized trend with this men's oversized hoodie from our latest collection. With a relaxed fit and a hood attached to the neckline, we're talking all over comfort all. season. long. Wear with joggers and slides for off-duty days or team with paint splatter jeans and a shacket for a look we love.  70% Cotton And 30% Polyester, Model Is 6'1\" And Wears Size M",
+      "price": 30,
+      "img1": "https://media.boohoo.com/i/boohoo/bmm29252_green_xl/mens-green-oversized-boxy-moon-graphic-hoodie?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "img2": "https://media.boohoo.com/i/boohoo/bmm29252_green_xl/mens-green-oversized-boxy-moon-graphic-hoodie?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "img3": "https://media.boohoo.com/i/boohoo/bmm29252_green_xl/mens-green-oversized-boxy-moon-graphic-hoodie?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "id": 2
+    },
+    {
+      "category": "male",
+      "title": "Hoodie",
+      "model": "MAN OFFICIAL JERSEY HOODIE WITH SNOOD",
+      "description": "Get ready for cosy season in this piece from our men's snood hoodies collection. Good for cold weather and designed to keep your neck warm, it’s an essential item to add to your wardrobe. Match this hoodie with your favourite pair of jeans and tee for a casual look. Or bring this hoodie along to any occasion, for the cooler weather. This hoodie can be raised high enough to cover the nose and mouth, adding even more warmth. A winner's piece of clothing for the season.  Style: Plain Hoodie Design: Embroidered Fabric: Jersey Neckline: Snood Sleeve Length: Long Sleeve 100% Cotton. Model is 6'1' And Wears Size M.",
+      "price": 40,
+      "img1": "https://media.boohoo.com/i/boohoo/bmm28553_black_xl/mens-black-oversized-graffiti-teddy-graphic-hoodie?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "img2": "https://media.boohoo.com/i/boohoo/bmm28553_black_xl_1/male-black-oversized-graffiti-teddy-graphic-hoodie?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "img3": "https://media.boohoo.com/i/boohoo/bmm28553_black_xl_3/male-black-oversized-graffiti-teddy-graphic-hoodie?w=450&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit",
+      "id": 3
+    },
+    {
+      "category": "male",
+      "title": "djc",
+      "model": "jbjdsg;jdfbg",
+      "description": "fbfsd;ljlbvd",
+      "price": 345678,
+      "img1": "https://avatars.mds.yandex.net/i?id=ba91e9cd71a2eee6a4068e7628aea6f0-5276454-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=ba91e9cd71a2eee6a4068e7628aea6f0-5276454-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=ba91e9cd71a2eee6a4068e7628aea6f0-5276454-images-thumbs&n=13",
+      "id": 4
+    }
+  ]
+}
