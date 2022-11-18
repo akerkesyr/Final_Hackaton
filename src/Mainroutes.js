@@ -20,7 +20,7 @@ const Mainroutes = () => {
       <Route path='/footer' element = {<Footer/>} />
       <Route path='add' element = {<AddProduct/>} />
       <Route path='edit/:id' element = {<EditProduct/>}/>
-      <Route path='/basket' element = {<Basket/>} />
+      <Route path='/favourites' element = {<Basket/>} />
       <Route path='/productList' element = {<ProductsList/>} />
       <Route path='/liveSearch' element = {<LiveSearch/>} />
       <Route path='/productDetails/:id' element={<ProductDetails/>}/>

@@ -35,7 +35,7 @@ const Navbar = () => {
                     </IconButton>
                     </Link>
                     <li onClick={()=>handleLogout()}>LogOut</li>
-                      <Link style={{textDecoration:'none',display:"flex",justifyContent:"center", width:"100px"}} to="/basket">
+                      <Link style={{textDecoration:'none',display:"flex",justifyContent:"center", width:"100px"}} to="/favourites">
                     <IconButton>
                       <ShoppingBagIcon/>
                     </IconButton>

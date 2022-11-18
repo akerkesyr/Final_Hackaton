@@ -5,6 +5,7 @@ import { productContext } from "../../context/ProductContextProvider";
 import Filter from "../Filter/Filter";
 import LiveSearch from "../LiveSearch/LiveSearch";
 import ProductCard from "../ProductCard/ProductCard";
+import Comment from "../Comments/Comments"
 import './ProductsList.css'
 const ProductsList = () => {
   const { productsArr, readProduct, pageTotalCount } =
@@ -74,6 +75,7 @@ const ProductsList = () => {
           onChange={(e, value) => setPage(value)} 
         />
       </Grid>
+      <Comment />
     </>
   );
 };

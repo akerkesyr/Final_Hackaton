@@ -32,7 +32,8 @@ import {
     return (
       <>
         <Container maxWidth="lg">
-          <Typography variant="h3">My basket</Typography>
+          <h2 style={{fontSize: "25px"}}>favourites</h2>
+          <span style={{fontSize: "15px"}}>from basket*</span>
           {productsInBasket ? (
             <>
               <TableContainer component={Paper}>
@@ -40,12 +41,12 @@ import {
                   <TableHead>
                     <TableRow>
                       <TableCell sx={{ fontWeight: "bold" }}>Title</TableCell>
-                      <TableCell sx={{ fontWeight: "bold" }}>Model</TableCell>
-                      <TableCell sx={{ fontWeight: "bold" }}>Image</TableCell>
-                      <TableCell sx={{ fontWeight: "bold" }}>Price</TableCell>
-                      <TableCell sx={{ fontWeight: "bold" }}>Count</TableCell>
-                      <TableCell sx={{ fontWeight: "bold" }}>SubPrice</TableCell>
-                    </TableRow>
+                     <TableCell sx={{ fontWeight: "bold" }}>Model</TableCell>
+                     <TableCell sx={{ fontWeight: "bold" }}>Image</TableCell>
+                     <TableCell sx={{ fontWeight: "bold" }}>Price</TableCell>
+                     <TableCell sx={{ fontWeight: "bold" }}>Count</TableCell>
+                     <TableCell sx={{ fontWeight: "bold" }}>SubPrice</TableCell>
+                   </TableRow>
                   </TableHead>
                   <TableBody>
                     {productsInBasket.products.map(elem => (
