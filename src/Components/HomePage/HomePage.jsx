@@ -7,9 +7,11 @@ const HomePage = () => {
     return (
         <div>
             <div>
+            <div id='homePage__h4'>
             <h4 style={{display: "flex", textAlign:"center", alignItems:"center"}} className='homePage__h4'>
                 MAKE THE IMPRESSION OF AIRBNB
             </h4>
+            </div>
             <h1 className='homePage__h1'>
                 MAKE MONEY,
                 MEETING PEOPLE
@@ -23,7 +25,7 @@ const HomePage = () => {
             </Link>
         </div>
         <div>
-            <video style={{marginTop: 40}} width="100%" height="560px" controls autoPlay src='https://stream.media.muscache.com/GLBXMO7wXoGpGzwi6QBynOiqpPONrVB2RQ5KCFSuIxM.mp4'>
+            <video style={{marginTop: 40}} width="100%" height="560px"  src='https://stream.media.muscache.com/GLBXMO7wXoGpGzwi6QBynOiqpPONrVB2RQ5KCFSuIxM.mp4' controls autoPlay>
             </video>
         </div>
         <CardPage/>

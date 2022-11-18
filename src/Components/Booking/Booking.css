@@ -1,0 +1,29 @@
+.booking__inputs{
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input{
+    margin-top: 10px;
+    margin-left: 70%;
+    border-radius: 10px;
+}
+button{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    border-radius: 10px;
+    margin-left: 75%;
+}
+.img{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}

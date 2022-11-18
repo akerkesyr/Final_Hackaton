@@ -49,7 +49,7 @@ const LiveSearch = () => {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "/list") {
+    if (location.pathname === "/productList") {
       setParamsSearch({
         price_gte: +paramsSearch.get("price_gte"),
         price_lte: +paramsSearch.get("price_lte"),

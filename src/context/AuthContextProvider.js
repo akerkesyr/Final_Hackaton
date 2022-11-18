@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import fire from "../fire";
 
-const authContext = createContext();
+export const authContext = createContext();
 export const useAuth = () => useContext(authContext)
 
 const AuthContextProvider = ({ children }) => {

@@ -25,7 +25,7 @@ const AddProduct = () => {
   const { addProduct, productsArr } = useContext(productContext);
   const [category, setCategory] = useState("");
   const [title, setTitle] = useState("");
-  const [model, setModel] = useState("");
+  const [country, setCountry] = useState("");
   const [description, setDescription] = useState("");
   const [price, setPrice] = useState();
   const [img1, setImg1] = useState("");
@@ -37,7 +37,7 @@ const AddProduct = () => {
     if (
       !category.trim() ||
       !title.trim() ||
-      !model.trim() ||
+      !country.trim() ||
       !description.trim() ||
       !price ||
       !img1.trim() ||
@@ -51,7 +51,7 @@ const AddProduct = () => {
     let obj = {
       category,
       title,
-      model,
+      country,
       description,
       price: +price,
       img1,
@@ -61,7 +61,7 @@ const AddProduct = () => {
     addProduct(obj);
     setCategory("");
     setTitle("");
-    setModel("");
+    setCountry("");
     setDescription("");
     setPrice(0);
     setImg1("");
@@ -87,9 +87,9 @@ const AddProduct = () => {
             onChange={e => setCategory(e.target.value)}
             autoWidth
             label="Category">
-            <MenuItem value="femail">femail</MenuItem>
-            <MenuItem value="male">male</MenuItem>
-            <MenuItem value="childrens">childrens</MenuItem>
+            <MenuItem value="tickets">tickets</MenuItem>
+            <MenuItem value="hotels">hotels</MenuItem>
+            <MenuItem value="tours">tours</MenuItem>
           </Select>
         </FormControl>
         <TextField
@@ -101,10 +101,10 @@ const AddProduct = () => {
         />
         <TextField
           className="outlined-basic"
-          label="Model"
+          label="Country"
           variant="outlined"
-          value={model}
-          onChange={e => setModel(e.target.value)}
+          value={country}
+          onChange={e => setCountry(e.target.value)}
         />
         <TextField
           className="outlined-basic"

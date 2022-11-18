@@ -60,6 +60,8 @@ body {
     flex-wrap: wrap;
 }
 .cardsPart{
+  display: flex;
+  flex-wrap: wrap;
     margin-top: 40px ; 
     display: flex;
     justify-content: space-around;
@@ -73,13 +75,14 @@ body {
     text-align: center;
   }
 #CardsPart__pic{
+  display: flex;
+  flex-wrap: wrap;
     border-radius: 10%;
     align-items: center;
     margin-left: 20px;
     margin-top: 10px;
 }
 .secondCards__div{
-  flex-wrap: wrap;
     width: 300px;
     background-color: lavender;
     border-radius: 10%;

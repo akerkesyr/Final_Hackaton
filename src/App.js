@@ -1,14 +1,16 @@
 import React from "react";
-import CardPage from "./Components/CardPage/CardPage";
+import Basket from "./Components/Basket/Basket";
 import Footer from "./Components/Footer/Footer";
-import HomePage from "./Components/HomePage/HomePage";
+import LiveSearch from "./Components/LiveSearch/LiveSearch";
 import Navbar from "./Components/Navbar/Navbar";
 import AuthContextProvider from "./context/AuthContextProvider";
+import BasketContextProvider from "./context/BasketContextProvider";
 import ProductContextProvider from "./context/ProductContextProvider";
 import Mainroutes from "./Mainroutes";
 
 const App = () => {
   return (
+  <BasketContextProvider>
     <AuthContextProvider>
         <ProductContextProvider>
           <Navbar />
@@ -16,6 +18,7 @@ const App = () => {
           <Footer />
         </ProductContextProvider>
     </AuthContextProvider>
+  </BasketContextProvider>
   );
 };
 

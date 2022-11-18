@@ -18,10 +18,10 @@ import { Link } from "react-router-dom";
 import ShoppingCartSharpIcon from "@mui/icons-material/ShoppingCartSharp";
 import { Button } from "@mui/material";
 import './ProductCard.css'
-import { basketContext } from "../../../context/BasketContextProvider";
+import { authContext } from "../../context/AuthContextProvider";
 
 const ProductCard = ({ obj }) => {  
-  const { addProductToBasket } = React.useContext(basketContext);
+  const {addProductToBasket}=React.useContext(authContext)
   const [basket, setBasket] = React.useState(false);
 
   React.useEffect(() => {
@@ -59,7 +59,7 @@ const ProductCard = ({ obj }) => {
           </Avatar>
         }
         action={
-          <Link to={`/details/${obj.id}`}>
+          <Link to={`/productDetails/${obj.id}`}>
             <IconButton aria-label="settings">
               <LoupeIcon />
             </IconButton>
@@ -87,13 +87,12 @@ const ProductCard = ({ obj }) => {
           justifyContent: "space-around",
           alignItems: "center",
         }}>
-        <Link to="/buy">
+        <Link to="/booking">
           <Button variant="contained" sx={{ marginLeft: "20px" }}>
-            Buy
+            Book
           </Button>
         </Link>
-
-        {basket ? (
+        {/* {basket ? (
           <IconButton
             aria-label="share"
             onClick={() => {
@@ -111,7 +110,7 @@ const ProductCard = ({ obj }) => {
             }}>
             <ShoppingCartOutlinedIcon />
           </IconButton>
-        )}
+        )} */}
       </CardActions>
     </div>
   );

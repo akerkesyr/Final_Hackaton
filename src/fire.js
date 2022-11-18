@@ -4,13 +4,12 @@ import "firebase/compat/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAdkQlu7VVv3UDf7YPnAWHfpAgxO03a1Pw",
-  authDomain: "akerke-finalhackaton.firebaseapp.com",
-  projectId: "akerke-finalhackaton",
-  storageBucket: "akerke-finalhackaton.appspot.com",
-  messagingSenderId: "268643700247",
-  appId: "1:268643700247:web:4c0444cfc4e15530ba5652",
-  measurementId: "G-YY73DRRD0L"
+  apiKey: "AIzaSyADcmf1xRPn4g1W2V3SbvYnBG7XADmQL1Y",
+  authDomain: "akerke-final-hackaton.firebaseapp.com",
+  projectId: "akerke-final-hackaton",
+  storageBucket: "akerke-final-hackaton.appspot.com",
+  messagingSenderId: "543750756430",
+  appId: "1:543750756430:web:80777d34fa140d496ecb1f"
 };
 
 

@@ -25,25 +25,25 @@ import {
             justifyContent: "space-between",
             alignItems: "center",
           }}>
-          <FormControlLabel value="femail" control={<Radio />} label="Female" />
-          <FormControlLabel value="male" control={<Radio />} label="Male" />
+          <FormControlLabel value="tickets" control={<Radio />} label="tickets" />
+          <FormControlLabel value="hotels" control={<Radio />} label="hotels" />
           <FormControlLabel
-            value="childrens"
+            value="tours"
             control={<Radio />}
-            label="Children"
+            label="tours"
           />
           <FormControlLabel value="all" control={<Radio />} label="All" />
         </RadioGroup>
-        <FormLabel id="demo-radio-buttons-group-label">By prices</FormLabel>
-        <Slider
+        {/* <FormLabel id="demo-radio-buttons-group-label">By prices</FormLabel> */}
+        {/* <Slider
           getAriaLabel={() => "Temperature range"}
           value={price}
           onChange={e => setPrice(e.target.value)}
           valueLabelDisplay="auto"
           min={0}
           max={200000}
-        />
-      </FormControl>
+        />     */}
+      </FormControl> 
     );
   };
   

@@ -1,23 +1,45 @@
-.nav__links{
+.nav__ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
     width: auto;
 }
-#active_social :hover{
+/* #active_social :hover{
     color: black;
     background-color: white;
     border-radius: 30%;
-}
-.nav__links :hover{
-    border-bottom: 3px solid #FBE7C6;
+} */
 
-}@media all and (max-width: 620px) {
+.nav__links1{
+    color: black;
+}
+
+.nav__links1:hover{
+    border-bottom: 3px solid #FBE7C6;
+    width: 80px;
+}
+
+@media all and (max-width: 700px) {
     #Login{
         display: none;
     }
     #English{
         display: none;
     }
+        .nav__ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+            width: auto;
+        }
+    .nav__links{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: row;
+        width: auto;
+    }
 }
+

@@ -62,3 +62,10 @@ body {
     text-align: center;
     padding-left: 55px;
   }
+
+  .homePage__h4{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+  }
+

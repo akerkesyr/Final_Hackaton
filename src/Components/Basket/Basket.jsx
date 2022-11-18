@@ -32,7 +32,7 @@ import {
     return (
       <>
         <Container maxWidth="lg">
-          <Typography variant="h3">My Basket</Typography>
+          <Typography variant="h3">My basket</Typography>
           {productsInBasket ? (
             <>
               <TableContainer component={Paper}>

@@ -3,8 +3,9 @@ import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { productContext } from "../../context/ProductContextProvider";
 import Filter from "../Filter/Filter";
-import ProductCard from "./ProductCard/ProductCard";
-
+import LiveSearch from "../LiveSearch/LiveSearch";
+import ProductCard from "../ProductCard/ProductCard";
+import './ProductsList.css'
 const ProductsList = () => {
   const { productsArr, readProduct, pageTotalCount } =
     useContext(productContext);
@@ -49,6 +50,7 @@ const ProductsList = () => {
           setPrice={setPrice}
         />
       </Grid>
+      <LiveSearch/>
       <Grid
         container
         direction="row"
@@ -69,7 +71,7 @@ const ProductsList = () => {
           count={+pageTotalCount}
           color="secondary"
           page={+page}
-          onChange={(e, value) => setPage(value)}
+          onChange={(e, value) => setPage(value)} 
         />
       </Grid>
     </>

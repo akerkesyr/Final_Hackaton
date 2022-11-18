@@ -12,6 +12,7 @@ const INIT_STATE = {
   pageTotalCount: 1,
 };
 
+
 function reducer(prevState, action) {
   switch (action.type) {
     case "GET_PRODUCT":
